@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="application.rootcontroller8" prefHeight="250" 	prefWidth="850" >
+   <children>
+      <BubbleChart fx:id="bubChart">
+        <xAxis>          <NumberAxis side="BOTTOM" />        </xAxis>
+        <yAxis>          <NumberAxis side="LEFT" />        </yAxis>
+      </BubbleChart>
+      <ScatterChart fx:id="scatterChart">
+        <xAxis>          <NumberAxis side="BOTTOM" />        </xAxis>
+        <yAxis>          <NumberAxis side="LEFT" />        </yAxis>
+      </ScatterChart>
+      <LineChart fx:id="lineChart">
+        <xAxis>          <CategoryAxis side="BOTTOM" />        </xAxis>
+        <yAxis>          <NumberAxis side="LEFT" />        </yAxis>
+      </LineChart>
+   </children>
+</HBox>

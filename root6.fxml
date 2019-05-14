@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="application.rootcontroller4" prefHeight="240" prefWidth="285" >
+   <children>
+      	<Label layoutX="22.0" layoutY="36.0" text="콤보박스" />
+      	<ComboBox fx:id="combo" layoutX="84.0" layoutY="32.0" prefHeight="23.0" 
+		prefWidth="132.0" promptText="선택하세요" >
+    	    <items>
+		<FXCollections fx:factory="observableArrayList">
+       		<String fx:value="공개"/><String fx:value="비공개"/>
+		</FXCollections>
+    	    </items>
+      	</ComboBox>
+	<Label layoutX="22.0" layoutY="60.0" text="텍스트상자" />
+	<TextArea fx:id="ta" layoutX="22.0" layoutY="80.0" prefHeight="132.0" prefWidth="240.0" />
+   </children>
+</AnchorPane>
